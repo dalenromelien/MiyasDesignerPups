@@ -1,0 +1,38 @@
+@font-face {
+    font-family: dancingScript;
+    src: url(../assets/fonts/DancingScript-Bold.ttf);
+}
+
+.navigation{
+    background-color: #5b0e2d;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.navigation li{
+    display: inline;
+    margin: 30px;
+    color:white;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: dancingScript;
+}
+
+.brief-content{
+    display: block;
+}
+
+.carousel-container {
+    display: block;
+    height: 720px;
+    width: 100%;
+}
