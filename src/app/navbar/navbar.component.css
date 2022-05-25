@@ -1,0 +1,15 @@
+.navigation{
+    background-color: #5b0e2d;
+    padding: 10px;
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.navigation li{
+    display: inline;
+    margin: 30px;
+    color:white;
+}
