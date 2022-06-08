@@ -1,25 +1,44 @@
 <nav>
-    <ul class="navigation">
-        <a routerLink="">
-            <li>Home</li>
-        </a>
-        <a href="#">
-            <li>Contracts</li>
-        </a>
-        <a routerLink="waiting-list">
-            <li>Waiting List</li>
-        </a>
-        <a routerLink="about">
-            <li>About</li>
-        </a>
-        <a href="#">
-          <li>Gallery</li>
-        </a>
-        <a routerLink="tips">
-          <li>Tips</li>
-        </a>
-        <a href="#">
-          <li>Other Services</li>
-        </a>
-    </ul>
+  <ul class="navigation">
+    <a routerLink="">
+      <li>Home</li>
+    </a>
+    <li class="dropdown">
+      <button class="dropbtn">Contracts &#x25BE;
+        <i class></i>
+      </button>
+      <div class="dropdown-content-contracts">
+        <a routerLink="full-reg">Full Reg</a>
+        <a routerLink="limited-reg">Limited Reg</a>
+      </div>
+    </li>
+    <a routerLink="waiting-list">
+      <li>Waiting List</li>
+    </a>
+    <a routerLink="about">
+      <li>About</li>
+    </a>
+    <li class="dropdown">
+      <button class="dropbtn">Gallery &#x25BE;
+        <i class></i>
+      </button>
+      <div class="dropdown-content-gallery">
+        <a routerLink="parents">Parents</a>
+        <a routerLink="past-litters">Past Litters</a>
+        <a routerLink="current-litters">Current Litters</a>
+      </div>
+    </li>
+    <a routerLink="tips">
+      <li>Tips</li>
+    </a>
+    <li class="dropdown">
+      <button class="dropbtn">Other Services &#x25BE;
+        <i class></i>
+      </button>
+      <div class="dropdown-content-services">
+        <a routerLink="grooming">Grooming</a>
+        <a routerLink="kenneling">Kenneling</a>
+      </div>
+    </li>
+  </ul>
 </nav>

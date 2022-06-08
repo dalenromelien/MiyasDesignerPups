@@ -1,0 +1,29 @@
+@font-face {
+    font-family: dancingScript;
+    src: url(../../assets/fonts/DancingScript-Bold.ttf);
+}
+
+.header{
+    margin: 50px;
+    font-family: dancingScript;
+    font-size: 50px;
+}
+
+.contracts-container{
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.contract{
+    text-align:center;
+    display: inline-block;
+}
+
+img{
+    height: 600px;
+    width: 500px;
+    border: 10px solid #5b0e2d;
+    border-radius: 10px;
+}

@@ -13,3 +13,85 @@ a:link{
     margin: 30px;
     color:white;
 }
+
+.dropdown {
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    display: inline;
+    position: relative;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#b56082;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content-contracts {
+    display: none;
+    position: absolute;
+    background-color: #b56082;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 130px;
+  }
+
+  .dropdown-content-gallery{
+    display: none;
+    position: absolute;
+    background-color: #b56082;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 540px;
+  }
+
+  .dropdown-content-services{
+    display: none;
+    position: absolute;
+    background-color: #b56082;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 783px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content-contracts a, .dropdown-content-gallery a, .dropdown-content-services a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content-contracts a:hover, .dropdown-content-gallery a:hover, .dropdown-content-services a:hover{
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content-contracts{
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content-gallery{
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content-services{
+      display: block;
+  }
